@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DragDrop.cs" />
      <Compile Include="Assets\Heat_Meter.cs" />
      <Compile Include="Assets\Icecap.cs" />
      <Compile Include="Assets\Icecap2.cs" />

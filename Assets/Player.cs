@@ -9,6 +9,9 @@ public class Player : MonoBehaviour {
 	void Start () {
 		speed = 3;
 		GetComponent<Rigidbody2D> ().freezeRotation = true;
+		Physics2D.IgnoreCollision (GameObject.FindGameObjectWithTag ("ice").GetComponent<Collider2D> (), GetComponent<Collider2D> ());
+		Physics2D.IgnoreCollision (GameObject.FindGameObjectWithTag ("ice2").GetComponent<Collider2D> (), GetComponent<Collider2D> ());
+		Physics2D.IgnoreCollision (GameObject.FindGameObjectWithTag ("ice3").GetComponent<Collider2D> (), GetComponent<Collider2D> ());
 		Physics2D.IgnoreCollision (GameObject.FindGameObjectWithTag ("ocean").GetComponent<Collider2D> (), GetComponent<Collider2D> ());
 	}
 	
@@ -20,6 +23,8 @@ public class Player : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		Destroy (other.gameObject);
+		if (!(other.gameObject.tag == "ice" || other.gameObject.tag == "ice2" || other.gameObject.tag == "ice3")) {
+			Destroy (other.gameObject);
+		}
 	}
 }
