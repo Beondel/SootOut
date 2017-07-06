@@ -1,0 +1,33 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Icecap3.cs">
+    <Files>
+      <File FileName="Assets/score1.cs" Line="17" Column="55" />
+      <File FileName="Assets/score2.cs" Line="25" Column="5" />
+      <File FileName="Assets/score3.cs" Line="25" Column="5" />
+      <File FileName="Assets/Icecap.cs" Line="21" Column="5" />
+      <File FileName="Assets/Icecap2.cs" Line="21" Column="5" />
+      <File FileName="Assets/Icecap3.cs" Line="11" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SaveThePolarBears" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Icecap3.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="SaveThePolarBears" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
